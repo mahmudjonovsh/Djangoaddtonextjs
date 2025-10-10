@@ -30,3 +30,15 @@ a{
     transition:0.3s ease-in-out;
   }
 }
+button{
+  background-color: green;
+  color: snow;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  &:hover{
+    background-color: darkgreen;
+    transition:0.3s ease-in-out;
+  } 
+}
